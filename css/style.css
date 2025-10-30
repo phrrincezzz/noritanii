@@ -1,0 +1,190 @@
+/* Reset & Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar */
+header {
+    background-color: #2c5f2d;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #3e7a40;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e2f0d9;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+.hero h1 {
+    font-size: 3rem;
+    color:#2c5f2d;
+    margin-bottom:20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #4b6b4b;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+/* General Section Styling */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section .container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Different background colors per section */
+#profile {
+    background-color: #fff;
+}
+
+#headquarter {
+    background-color: #f0f5ec;
+}
+
+#portfolio {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #f0f5ec;
+}
+
+/* Section Headings */
+.section h2 {
+    font-size: 2.5rem;
+    color: #2c5f2d;
+    margin-bottom: 20px;
+}
+
+/* Icons Styling */
+.material-icons {
+    color: #2c5f2d;
+    font-size: 40px;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 12px 25px;
+    background-color: #2c5f2d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #3e7a40;
+}
+
+/* Footer */
+footer {
+    background-color: #2c5f2d;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 20px;
+}
+/* Resposive */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    form {
+        width: 90%;
+    }
